@@ -180,33 +180,36 @@ footer p {
     margin-top: 20px;
 }
 
-
+/*--------------------------------------------------------------- */
+/* About me /* 
+/*--------------------------------------------------------------- */
 .blog img {
     float: left;
     width: 500px;
-   padding: 5px;
-    border-radius: 5%;
+    padding-right: 30px;
+    height: 50%;
+    border-radius: 20%;
     
 }
 
 .blog {
     text-align: justify;
-    padding-right: 10px;
-    background-color: #fcfcfc;
+    padding: 30px;
+    background-color: #171421;
+    color: white;
+
     
 }
 
-.hobby {
-    background-image:  linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(img/background.jpeg);
-    background-repeat: repeat;
-    background-position: center center;
-    background-attachment: fixed;
-    color: #f8f8f8;
-    text-align: justify;
-    padding: 10px;
-    
-    
+.blog::after {
+    content: "";
+    clear: both;
+    display: block;
 }
+
+/*--------------------------------------------------------------- */
+/* Contact box /* 
+/*--------------------------------------------------------------- */
 
 .contact {
     background-color: #eae7e7;
@@ -268,4 +271,56 @@ input[type=submit]:hover {
     font-size: 25px;
     text-align: center;
     font-style: oblique;
+    text-decoration: underline
+}
+
+
+/*--------------------------------------------------------------- */
+/* hobby /* 
+/*--------------------------------------------------------------- */
+
+
+    
+.section-hobby {
+    padding: 0;
+}
+
+.hobby-showcase {
+    list-style: none;
+    width: 100%;
+    
+}
+
+.hobby-showcase::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.hobby-showcase li {
+    display: block;
+    float: left;
+    width: 25%;
+}
+
+.hobby-photo {
+    width: 100%;
+    height: auto;
+    margin: 0;
+    overflow: hidden;
+    background-color: #000;
+    
+}
+
+.hobby-photo img {
+    width: 100%;
+    height: auto;
+    transform: scale(1.15);
+    transition: transform 0.5s, opacity 0.5s;
+    opacity: 0.7;
+}
+
+.hobby-photo img:hover {
+    transform: scale(1.03);
+    opacity: 1;
 }
