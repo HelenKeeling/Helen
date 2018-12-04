@@ -22,12 +22,16 @@ body {
 /*--------------------------------------------------------------- */
 
 .logo {
-    height: 70px;
+    height: 80px;
     width: auto;
     float: left;
-    margin-top: 20px;
+    margin-top: 5px;
+    border-radius: 50%;
+    padding: 10px;
     
 }
+
+
 
 header {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(img/hero.jpeg);
@@ -37,12 +41,15 @@ header {
     background-size: cover;
 }
 
-.main-nav {
+.navbar {
     float: right;
     list-style: none;
-    margin-top: 10px;
     margin-right: 10px;
-    
+    top: 0;
+    z-index: 100;
+    position: fixed;
+    width: 100%;
+    background-color: #171421;
 }
 
 .hero-inner {
@@ -62,15 +69,15 @@ header {
 
     
 }
-.main-nav li {
+.navbar li {
     display: inline-block;
     margin-left: 40px;
    
     
 }
 
-.main-nav li a:link,
-.main-nav li a:visited{
+.navbar li a:link,
+.navbar li a:visited{
     padding: 8px 0;
     color: #fff;
     text-decoration: none;
@@ -81,8 +88,8 @@ header {
     
 }
 
-.main-nav li a:hover,
-.main-nav li a:active {
+.navbar li a:hover,
+.navbar li a:active {
     border-bottom: 2px solid #f8f8f8;
   
 }
@@ -218,10 +225,7 @@ footer p {
     background-color: #eae7e7;
     padding: 10px;
     text-align: center;
-    
-    
-    
-    
+
 }
 
 
@@ -233,9 +237,7 @@ input[type=text], select, textarea {
     box-sizing: border-box; 
     margin-top: 6px; 
     margin-bottom: 16px;
-    resize: vertical;
-    
-    
+    resize: vertical; 
 }
 
 
@@ -251,7 +253,6 @@ input[type=submit] {
 
 input[type=submit]:hover {
     background-color: #959895;
-   
 }
 
 
@@ -261,13 +262,11 @@ input[type=submit]:hover {
     padding: 20px;
     width: 50%;
     margin: 0 auto;
-   
 }
 
 .contactme {
     background-color: #eae7e7;
     font-size: 70%;
-   
 }
 
 .contacted {
@@ -330,7 +329,7 @@ input[type=submit]:hover {
 
 
 /*--------------------------------------------------------------- */
-/* Pictures /* 
+/* Projects /* 
 /*--------------------------------------------------------------- */
 
 
