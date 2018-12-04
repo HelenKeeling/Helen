@@ -15,23 +15,18 @@ body {
     overflow-x: hidden;
  }
 
-
-
 /*--------------------------------------------------------------- */
 /* HEADER /* 
 /*--------------------------------------------------------------- */
 
-.logo {
+.home {
     height: 80px;
     width: auto;
     float: left;
     margin-top: 5px;
     border-radius: 50%;
     padding: 10px;
-    
 }
-
-
 
 header {
     background-color: #171421;
@@ -51,30 +46,23 @@ header {
     color: #171421;
 }
 
-.hero-inner {
+.titlebar {
     position: absolute;
     width: 1140px;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
-    justify-content: center;
     font-size: 250%;
-    margin-top: 0;
-    margin-bottom: 0.10em;
-    color: white;
+    color: #ffffff;
     font-family: 'Caveat', cursive;
-    
-
-    
 }
+
 .navbar li {
     display: inline-block;
     margin-left: 40px;
     padding: 20px;
-    float: right;
-   
-    
+    float: right;  
 }
 
 .navbar li a:link,
@@ -86,13 +74,114 @@ header {
     font-size: 70%;
     border-bottom: 2px solid transparent;
     transition: border-bottom 0.2s;
-    
 }
 
 .navbar li a:hover,
 .navbar li a:active {
     border-bottom: 2px solid #f8f8f8;
-  
+}
+
+
+/*--------------------------------------------------------------- */
+/* About me /* 
+/*--------------------------------------------------------------- */
+.blog img {
+    float: right;
+    width: 300px;
+    padding-left: 50px;
+    height: 50%; 
+}
+
+.blog {
+    text-align: justify;
+    padding: 60px;
+    padding-right: 70px;
+    margin: 60px;
+    background-color: #eae7e7;
+    color: #171421;
+    font-size: 15px; 
+}
+
+.blog::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+/*--------------------------------------------------------------- */
+/* Photography /* 
+/*--------------------------------------------------------------- */
+
+
+
+.pictures {
+    padding: 0;
+    float: right; 
+}
+
+.column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 300px;
+    height: 200px;
+    position: relative;
+    float: left;
+    margin: 10px; 
+    padding: 0;
+}
+
+/*--------------------------------------------------------------- */
+/* Contact box /* 
+/*--------------------------------------------------------------- */
+
+.contact {
+    background-color: #eae7e7;
+    padding: 10px;
+    text-align: center;
+}
+
+input[type=text], select, textarea {
+    width: 100%; 
+    padding: 12px;  
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 16px;
+    resize: vertical; 
+}
+
+input[type=submit] {
+    background-color: #171421;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #959895;
+}
+
+.container {
+    border-radius: 5px;
+    background-color: #eae7e7;
+    padding: 20px;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.contact {
+    background-color: #eae7e7;
+    font-size: 70%;
+}
+
+.contacted {
+    font-size: 25px;
+    text-align: center;
+    font-family: 'Caveat', cursive;
+    font-size: 40px;
 }
 
 /*--------------------------------------------------------------- */
@@ -108,7 +197,6 @@ footer{
 .footer-nav {
     list-style: none;
     float: right;
-    
 }
 
 
@@ -121,7 +209,6 @@ footer{
 .footer-nav li:last-child,
 .social-links li:last-child{
     margin-right: 0;
-    
 }
 
 .footer-nav li a:link,
@@ -131,7 +218,6 @@ footer{
     text-decoration: none;
     border: 0;
     color: #888;
-    
 }
 
 .footer-nav li a:hover,
@@ -139,15 +225,13 @@ footer{
     color: #ddd;
     transform: 0.2s;
     border-bottom: 2px solid #f8f8f8;
-    
 }
 
 .social-links li a:link,
 .social-links li a:visited {
     font-size: 160%;
-    
-    
 }
+
 .fa-facebook,
 .fa-twitter,
 .fa-github,
@@ -156,227 +240,28 @@ footer{
     transition: color 0.2s;
 }
 
-
 .fa-facebook:hover{
     color: #3b5998;
-    
 }
 
 .fa-twitter:hover{
-    color: #00aced;
-    
+    color: #00aced; 
 }
 
 .fa-github:hover{
-    color: #6e5494;
-    
+    color: #6e5494; 
 }
 
 .fa-instagram:hover{
-    color: #4f5bd5;
-    
+    color: #4f5bd5; 
 }
 
 .fa-linkedin:hover{
     color: #0077B5;
-    
 }
 
 footer p {
     color: #ddd;
     text-align: center;
     margin-top: 20px;
-}
-
-/*--------------------------------------------------------------- */
-/* About me /* 
-/*--------------------------------------------------------------- */
-.blog img {
-    float: right;
-    width: 300px;
-    padding-left: 50px;
-    height: 50%;
- 
-}
-
-.blog {
-    text-align: justify;
-    padding: 60px;
-    padding-right: 70px;
-    margin: 60px;
-    background-color: #eae7e7;
-    color: #171421;
-    font-size: 15px;
-
-    
-}
-
-.blog::after {
-    content: "";
-    clear: both;
-    display: block;
-}
-
-/*--------------------------------------------------------------- */
-/* Contact box /* 
-/*--------------------------------------------------------------- */
-
-.contact {
-    background-color: #eae7e7;
-    padding: 10px;
-    text-align: center;
-
-}
-
-
-input[type=text], select, textarea {
-    width: 100%; 
-    padding: 12px;  
-    border: 1px solid #ccc; 
-    border-radius: 4px; 
-    box-sizing: border-box; 
-    margin-top: 6px; 
-    margin-bottom: 16px;
-    resize: vertical; 
-}
-
-
-input[type=submit] {
-    background-color: #171421;
-    color: white;
-    padding: 12px 20px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-}
-
-
-input[type=submit]:hover {
-    background-color: #959895;
-}
-
-
-.container {
-    border-radius: 5px;
-    background-color: #eae7e7;
-    padding: 20px;
-    width: 50%;
-    margin: 0 auto;
-}
-
-.contactme {
-    background-color: #eae7e7;
-    font-size: 70%;
-}
-
-.contacted {
-    font-size: 25px;
-    text-align: center;
-    font-style: oblique;
-    text-decoration: underline
-}
-
-
-/*--------------------------------------------------------------- */
-/* Pictures /* 
-/*--------------------------------------------------------------- */
-
-
-    
-.section-hobby {
-    padding: 0;
-}
-
-.hobby-showcase {
-    list-style: none;
-    width: 100%;
-    
-}
-
-.hobby-showcase::after {
-    content: "";
-    clear: both;
-    display: table;
-}
-
-.hobby-showcase li {
-    display: block;
-    float: left;
-    width: 25%;
-}
-
-.hobby-photo {
-    width: 100%;
-    height: auto;
-    margin: 0;
-    overflow: hidden;
-    background-color: #000;
-    
-}
-
-.hobby-photo img {
-    width: 100%;
-    height: auto;
-    transform: scale(1.15);
-    transition: transform 0.5s, opacity 0.5s;
-    opacity: 0.7;
-}
-
-.hobby-photo img:hover {
-    transform: scale(1.03);
-    opacity: 1;
-}
-
-
-/*--------------------------------------------------------------- */
-/* Projects /* 
-/*--------------------------------------------------------------- */
-
-
-    
-.section-projects {
-    padding: 0;
-    background-color: #eae7e7;
-    color: white;
-    font-size: 15px;
-}
-
-.projects-showcase {
-    list-style: none;
-    width: 100%;
-    
-}
-
-.projects-showcase::after {
-    content: "";
-    clear: both;
-    display: table;
-}
-
-.projects-showcase li {
-    display: block;
-    float: left;
-    width: 25%;
-}
-
-.projects-photo {
-    width: 100%;
-    height: auto;
-    margin: 0;
-    overflow: hidden;
-    background-color: #000;
-    
-}
-
-.projects-photo img {
-    width: 100%;
-    height: auto;
-    transform: scale(1.10);
-    transition: transform 0.5s, opacity 0.5s;
-    opacity: 0.7;
-}
-
-.projects-photo img:hover {
-    transform: scale(1.03);
-    opacity: 1;
 }
