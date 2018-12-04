@@ -185,18 +185,21 @@ footer p {
 /*--------------------------------------------------------------- */
 .blog img {
     float: left;
-    width: 500px;
-    padding-right: 30px;
+    width: 300px;
+    padding-right: 50px;
     height: 50%;
-    border-radius: 20%;
+    
+    
     
 }
 
 .blog {
     text-align: justify;
     padding: 30px;
+    padding-right: 70px;
     background-color: #171421;
     color: white;
+    font-size: 15px;
 
     
 }
@@ -276,7 +279,7 @@ input[type=submit]:hover {
 
 
 /*--------------------------------------------------------------- */
-/* hobby /* 
+/* Pictures /* 
 /*--------------------------------------------------------------- */
 
 
@@ -321,6 +324,60 @@ input[type=submit]:hover {
 }
 
 .hobby-photo img:hover {
+    transform: scale(1.03);
+    opacity: 1;
+}
+
+
+/*--------------------------------------------------------------- */
+/* Pictures /* 
+/*--------------------------------------------------------------- */
+
+
+    
+.section-projects {
+    padding: 0;
+    background-color: #171421;
+    color: white;
+    font-size: 15px;
+}
+
+.projects-showcase {
+    list-style: none;
+    width: 100%;
+    
+}
+
+.projects-showcase::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.projects-showcase li {
+    display: block;
+    float: left;
+    width: 25%;
+}
+
+.projects-photo {
+    width: 100%;
+    height: auto;
+    margin: 0;
+    overflow: hidden;
+    background-color: #000;
+    
+}
+
+.projects-photo img {
+    width: 100%;
+    height: auto;
+    transform: scale(1.10);
+    transition: transform 0.5s, opacity 0.5s;
+    opacity: 0.7;
+}
+
+.projects-photo img:hover {
     transform: scale(1.03);
     opacity: 1;
 }
