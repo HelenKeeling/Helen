@@ -163,8 +163,12 @@ h2.porttext {
 .column2 {
     float: left;
     width: 25%;
+ 
+   
    
 }
+
+
 
 .row:after {
     content: "";
@@ -175,6 +179,7 @@ h2.porttext {
 .content {
     background-color: #eae7e7;
     padding: 10px;
+
 }
 
 /* Responsive layout - makes a two column-layout instead of four columns */
