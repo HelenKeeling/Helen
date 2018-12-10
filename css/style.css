@@ -177,11 +177,13 @@ h2.porttext {
 .column2 {
     float: left;
     width: 25%;
- 
-   
-   
+
 }
 
+.projecthead {
+    
+    font-size: 25px;
+}
 
 
 .row:after {
@@ -193,6 +195,7 @@ h2.porttext {
 .content {
     background-color: #eae7e7;
     padding: 10px;
+    font-size: 15px;
 
 }
 
@@ -226,9 +229,8 @@ input[type=text], select, textarea {
     padding: 12px;  
     border: 1px solid #ccc; 
     border-radius: 4px; 
-    box-sizing: border-box; 
-    margin-top: 6px; 
-    margin-bottom: 16px;
+    box-sizing: border-box;
+    
     resize: vertical; 
 }
 
@@ -240,6 +242,9 @@ input[type=submit] {
     border-radius: 4px;
     cursor: pointer;
 }
+
+
+
 
 input[type=submit]:hover {
     background-color: #959895;
