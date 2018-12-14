@@ -101,16 +101,11 @@ header {
 /*--------------------------------------------------------------- */
 /* About me /* 
 /*--------------------------------------------------------------- */
-.blog img {
-    float: right;
-    padding-left: 50px;
 
-}
 
 .blog {
     text-align: justify;
-    padding: 60px;
-    padding-right: 70px;
+    padding: 10px;
     margin: 60px;
     background-color: #eae7e7;
     color: #171421;
@@ -123,9 +118,24 @@ header {
     display: block;
 }
 
+h4 {
+    text-align: center;
+    padding: 10px;
+    font-family: 'Caveat', cursive;
+    font-size: 40px;
+    
+}
+@media screen and (max-width: 320px) { /* for screen size less or equal to 320px*/
+     .blog{
+        font-size: 80%; /*Changes as per your requirement*/
+     }    
+}
 
-
-
+@media screen and (max-width: 700px) { /* for screen size less or equal to 700px*/
+.blog{
+    font-size: 120%; /*Changes as per your requirement*/
+} 
+}
 /*--------------------------------------------------------------- */
 /* Photography /* 
 /*--------------------------------------------------------------- */
