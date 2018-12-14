@@ -105,7 +105,7 @@ header {
 
 .blog {
     text-align: justify;
-    padding: 10px;
+    padding: 5px;
     margin: 60px;
     background-color: #eae7e7;
     color: #171421;
@@ -125,17 +125,7 @@ h4 {
     font-size: 40px;
     
 }
-@media screen and (max-width: 320px) { /* for screen size less or equal to 320px*/
-     .blog{
-        font-size: 80%; /*Changes as per your requirement*/
-     }    
-}
 
-@media screen and (max-width: 700px) { /* for screen size less or equal to 700px*/
-.blog{
-    font-size: 120%; /*Changes as per your requirement*/
-} 
-}
 /*--------------------------------------------------------------- */
 /* Photography /* 
 /*--------------------------------------------------------------- */
