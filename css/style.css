@@ -126,6 +126,20 @@ h4 {
     
 }
 
+@media screen and (max-width: 320px) {
+  .blog 
+    
+    width: 80%;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .blog {
+    width: 70%;
+    text-align: center;
+  }
+}
 /*--------------------------------------------------------------- */
 /* Photography /* 
 /*--------------------------------------------------------------- */
@@ -135,33 +149,7 @@ h4 {
   box-sizing: border-box;
 }
 
-.column {
-  float: left;
-  width: 33.33%;
-  background-color: #eae7e7;
-  padding: 5px;
-}
 
-/* Clearfix (clear floats) */
-.row::after {
-  content: "";
-  clear: both;
-  display: table;
-}
-
-/* Responsive layout - makes a two column-layout instead of four columns */
-@media screen and (max-width: 900px) {
-    .column {
-        width: 50%;
-    }
-}
-
-/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 600px) {
-    .column {
-        width: 100%;
-    }
-}
 /*--------------------------------------------------------------- */
 /* PROJECTS /* 
 /*--------------------------------------------------------------- */
