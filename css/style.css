@@ -105,9 +105,9 @@ header {
 
 .blog {
     text-align: justify;
-    padding: 5px;
-    margin: 60px;
-    background-color: #eae7e7;
+    padding: 10px;
+    margin: 100px;
+    background-color: white;
     color: #171421;
     font-size: 15px; 
 }
@@ -120,28 +120,25 @@ header {
 
 h4 {
     text-align: center;
-    padding: 10px;
+    padding-bottom: 10px;
     font-family: 'Caveat', cursive;
     font-size: 40px;
     
 }
 
-@media screen and (max-width: 320px) {
-  .blog 
+@media screen and (max-width: 450px) {
+    .blog {
     
-    width: 80%;
     text-align: center;
+    padding: 10px;
+    margin: 10px;
   }
 }
 
-@media screen and (max-width: 500px) {
-  .blog {
-    width: 70%;
-    text-align: center;
-  }
-}
+
+
 /*--------------------------------------------------------------- */
-/* Photography /* 
+/* Skills /* 
 /*--------------------------------------------------------------- */
 
 
@@ -150,6 +147,64 @@ h4 {
 }
 
 
+.column {
+  float: left;
+  width: 33.33%;
+    text-align: center;
+    font-size: 15px;
+    padding: 20px;
+}
+
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.ion-logo-css3 {
+    font-size: 64px;
+    text-align: center;
+}
+.ion-logo-javascript {
+    text-align: center;
+    font-size: 64px;
+}
+  
+.ion-logo-html5 {
+    text-align: center;
+    font-size: 64px;
+}
+h5 {
+ text-align: center;
+    font-family: 'Caveat', cursive;
+    font-size: 40px;
+    
+}
+p .skills{
+    text-align: justify;
+    padding: 10px;
+    margin: 10px;
+}
+
+.skillsection {
+    background-color: #eae7e7;
+    padding: 50px;
+  
+}
+
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 500px) {
+    .skillsection {
+        margin: 0px;
+        padding: 10px; 
+    }
+    
+    .column {
+        padding: 10px;
+    }
+}
 /*--------------------------------------------------------------- */
 /* PROJECTS /* 
 /*--------------------------------------------------------------- */
@@ -235,7 +290,6 @@ input[type=text], select, textarea {
     border: 1px solid #ccc; 
     border-radius: 4px; 
     box-sizing: border-box;
-    
     resize: vertical; 
 }
 
@@ -247,8 +301,6 @@ input[type=submit] {
     border-radius: 4px;
     cursor: pointer;
 }
-
-
 
 
 input[type=submit]:hover {
@@ -275,6 +327,14 @@ input[type=submit]:hover {
     font-size: 40px;
 }
 
+@media screen and (max-width: 450px) {
+  .contact, #formid, .container, input[type=submit] {
+    width: 100%;
+      margin: 0px;
+      padding: 10px;
+    
+  }
+}
 /*--------------------------------------------------------------- */
 /* FOOTER /* 
 /*--------------------------------------------------------------- */
@@ -356,3 +416,19 @@ footer p {
     text-align: center;
     margin-top: 20px;
 }
+
+@media screen and (max-width: 450px) {
+    .footer-nav {
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+    font-size: 10px;
+  }
+    .social-links {
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+    font-size: 10px;
+  }  
+        
+    }
