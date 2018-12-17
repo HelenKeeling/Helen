@@ -35,6 +35,21 @@ body {
 /* HEADER /* 
 /*--------------------------------------------------------------- */
 
+
+    @media screen and (max-width : 450px){
+    .titlebar h2 {
+
+    font-size: 30px;
+
+    }
+    .titlebar h1 {
+
+    font-size: 30px;
+
+    }
+}
+
+
 .home {
     height: 80px;
     width: auto;
@@ -69,7 +84,7 @@ header {
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
-    font-size: 250%;
+    font-size: 50px;
     color: #ffffff;
     font-family: 'Caveat', cursive;
 }
@@ -140,12 +155,6 @@ h4 {
 /*--------------------------------------------------------------- */
 /* Skills /* 
 /*--------------------------------------------------------------- */
-
-
-* {
-  box-sizing: border-box;
-}
-
 
 .column {
   float: left;
@@ -429,6 +438,23 @@ footer p {
     padding: 10px;
     margin: 10px;
     font-size: 10px;
+  }  
+        
+    }
+
+@media screen and (max-width: 380px) {
+    .footer-nav {
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+    font-size: 14px;
+  }
+    .social-links {
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+    font-size: 12px;
+    float: inherit;
   }  
         
     }
