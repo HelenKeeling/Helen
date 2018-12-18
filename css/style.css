@@ -107,20 +107,39 @@ header {
 }
 
 
-   @media screen and (max-width : 400px){
-    .navbar, navbar li a, navbar li {
+   @media screen and (max-width : 450px){
+    .navbar {
     font-size: 12px;
         margin: 0px;
+        padding: 0px;
 
     }
+       .home {
+           display: none;
+       }
+       
+       .navbar li a, .navbar li{
+        margin: 0px;
+        padding: 10px;
+        float: center;
+       }
 }
 
   @media screen and (max-width : 320px){
-    .navbar, navbar li a, navbar li {
+    .navbar, .navbar li a, .navbar li {
     font-size: 10px;
         margin: 0px;
 
     }
+       .home {
+           
+           display: none;
+       }
+         .navbar li a, .navbar li{
+           margin: 0px;
+        padding: 10px;
+        float: center;
+       }
 }
 /*--------------------------------------------------------------- */
 /* About me /* 
