@@ -30,8 +30,19 @@ function submitted(event)
     var formContent = getFormContent(); //Get form values
     
     var formContentAsJson = JSON.stringify(formContent);
-    console.log(formContentAsJson);
+    
+    var xmlhttp = new XMLHttpRequest();   
+    xmlhttp.open("POST", "https://rcf5xftu7d.execute-api.eu-west-1.amazonaws.com/prod/contact");
+    xmlhttp.setRequestHeader("Content-Type", "application/json;charset=UTF-8");
+    
+    xmlhttp.onload = function(e) 
+    {
+        console.log(xmlhttp.status);
+    }
+    
+    xmlhttp.send(formContentAsJson);
 }
+
 
 function getFormContent()
 {
