@@ -31,8 +31,8 @@ function submitted(event) {
     var emailValue = document.getElementById("ename").value;
     var subjectValue = document.getElementById("subject").value;
     
-    var formContent = { firstName: firstNameValue, lastName: lastNameValue, email: emailValue, subject: subjectValue };
+    var formContent = { firstName: firstNameValue, lastName: lastNameValue, email: emailValue, message: subjectValue };
     
-    
-    console.log(formContent);
+    var formContentAsJson = JSON.stringify(formContent);
+    console.log(formContentAsJson);
 }
