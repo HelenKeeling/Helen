@@ -24,7 +24,15 @@ window.onload = function() {
 }
 
 function submitted(event) {
-    event.preventDefault();
+    event.preventDefault(); //Stop standard form behavior
     
-    console.log("test")
+    var firstNameValue = document.getElementById("fname").value;   
+    var lastNameValue = document.getElementById("lname").value;
+    var emailValue = document.getElementById("ename").value;
+    var subjectValue = document.getElementById("subject").value;
+    
+    var formContent = { firstName: firstNameValue, lastName: lastNameValue, email: emailValue, subject: subjectValue };
+    
+    
+    console.log(formContent);
 }
