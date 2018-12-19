@@ -23,16 +23,22 @@ window.onload = function() {
     form.onsubmit = submitted.bind(form);
 }
 
-function submitted(event) {
+function submitted(event) 
+{
     event.preventDefault(); //Stop standard form behavior
     
+    var formContent = getFormContent(); //Get form values
+    
+    var formContentAsJson = JSON.stringify(formContent);
+    console.log(formContentAsJson);
+}
+
+function getFormContent()
+{
     var firstNameValue = document.getElementById("fname").value;   
     var lastNameValue = document.getElementById("lname").value;
     var emailValue = document.getElementById("ename").value;
     var subjectValue = document.getElementById("subject").value;
     
-    var formContent = { firstName: firstNameValue, lastName: lastNameValue, email: emailValue, message: subjectValue };
-    
-    var formContentAsJson = JSON.stringify(formContent);
-    console.log(formContentAsJson);
+    return { firstName: firstNameValue, lastName: lastNameValue, email: emailValue, message: subjectValue };
 }
