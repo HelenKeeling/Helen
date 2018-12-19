@@ -38,6 +38,15 @@ function submitted(event)
     xmlhttp.onload = function(e) 
     {
         console.log(xmlhttp.status);
+        
+        if(xmlhttp.status === 200)
+        {
+            alert("Thanks!!");
+        }
+        else
+        {
+            alert("Opps, try again");   
+        }
     }
     
     xmlhttp.send(formContentAsJson);
