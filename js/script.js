@@ -18,12 +18,13 @@ document.addEventListener("DOMContentLoaded", (function() {
   });
 }));
 
-/* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
-function myFunction() {
-  var x = document.getElementById("mynavbar");
-  if (x.className === "navbar") {
-    x.className += " responsive";
-  } else {
-    x.className = "navbar";
-  }
+window.onload = function() {
+    var form = document.getElementById("formid");
+    form.onsubmit = submitted.bind(form);
+}
+
+function submitted(event) {
+    event.preventDefault();
+    
+    console.log("test")
 }
