@@ -233,7 +233,6 @@ p .skills {
   padding: 50px;
 }
 
-/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 500px) {
   .skillsection {
     margin: 0;
@@ -248,7 +247,7 @@ p .skills {
 /* PROJECTS /* 
 /*--------------------------------------------------------------- */
 
-h2.porttext {
+h6 {
   font-family: "Caveat", cursive;
   font-size: 40px;
   text-align: center;
@@ -262,14 +261,11 @@ h2.porttext {
   margin: auto;
 }
 
-/* Add padding BETWEEN each column */
-
 .row > .column2 {
   padding: 8px;
   padding-bottom: 30px;
 }
 
-/* Create four equal columns that floats next to each other */
 .column2 {
   float: left;
   width: 25%;
@@ -291,14 +287,14 @@ h2.porttext {
   font-size: 15px;
 }
 
-/* Responsive layout - makes a two column-layout instead of four columns */
+
 @media screen and (max-width: 900px) {
   .column2 {
     width: 50%;
   }
 }
 
-/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+
 @media screen and (max-width: 600px) {
   .column2 {
     width: 100%;
