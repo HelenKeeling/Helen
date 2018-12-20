@@ -287,13 +287,11 @@ h6 {
   font-size: 15px;
 }
 
-
 @media screen and (max-width: 900px) {
   .column2 {
     width: 50%;
   }
 }
-
 
 @media screen and (max-width: 600px) {
   .column2 {
@@ -350,7 +348,6 @@ input[type="submit"]:hover {
   font-size: 35px;
   text-align: center;
   font-family: "Caveat", cursive;
-  
 }
 
 @media screen and (max-width: 450px) {
