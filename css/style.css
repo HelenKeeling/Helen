@@ -13,6 +13,7 @@ body {
     font-size: 20px;
     text-rendering: optimizeLegibility;
     overflow-x: hidden;
+}
 
 
     @media (min-width: 576px) {
@@ -27,7 +28,7 @@ body {
     @media (min-width: 1200px) {
         html { font-size: 2rem; }
     }
-     }
+     
 
 
 
@@ -254,9 +255,7 @@ p .skills{
 /*--------------------------------------------------------------- */
 /* PROJECTS /* 
 /*--------------------------------------------------------------- */
-* {
-    box-sizing: border-box;
-}
+
 
 h2.porttext {
     font-family: 'Caveat', cursive;
@@ -335,7 +334,7 @@ input[type=text], select, textarea {
     padding: 12px;  
     border: 1px solid #ccc; 
     border-radius: 4px; 
-    box-sizing: border-box;
+    
     resize: vertical; 
 }
 
@@ -432,7 +431,7 @@ footer {
 .fa-facebook,
 .fa-twitter,
 .fa-github,
-.fa.linkedin,
+.fa-linkedin,
 .fa-instagram {
     transition: color 0.2s;
 }
