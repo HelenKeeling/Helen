@@ -122,7 +122,6 @@ header {
   .navbar li {
     margin: 0;
     padding: 10px;
-   
   }
 }
 
@@ -140,7 +139,6 @@ header {
   .navbar li {
     margin: 0;
     padding: 10px;
-    float: center;
   }
 }
 /*--------------------------------------------------------------- */
@@ -185,7 +183,7 @@ h4 {
 a.anchor {
   display: block;
   position: relative;
-  top: -10px;
+  top: -100px;
   visibility: hidden;
 }
 /*--------------------------------------------------------------- */
@@ -323,7 +321,6 @@ textarea {
   padding: 12px;
   border: 1px solid #ccc;
   border-radius: 4px;
-
   resize: vertical;
 }
 
@@ -354,15 +351,14 @@ input[type="submit"]:hover {
 }
 
 .contactedtext {
-  font-size: 25px;
+  font-size: 35px;
   text-align: center;
   font-family: "Caveat", cursive;
-  font-size: 40px;
+  
 }
 
 @media screen and (max-width: 450px) {
   .contact,
-  #formid,
   .container,
   input[type="submit"] {
     width: 100%;
@@ -370,6 +366,7 @@ input[type="submit"]:hover {
     padding: 10px;
   }
 }
+
 /*--------------------------------------------------------------- */
 /* FOOTER /* 
 /*--------------------------------------------------------------- */
