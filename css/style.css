@@ -15,37 +15,12 @@ body {
   overflow-x: hidden;
 }
 
-@media (min-width: 576px) {
-  html {
-    font-size: 1.25rem;
-  }
-}
-@media (min-width: 768px) {
-  html {
-    font-size: 1.5rem;
-  }
-}
-@media (min-width: 992px) {
-  html {
-    font-size: 1.75rem;
-  }
-}
-@media (min-width: 1200px) {
-  html {
-    font-size: 2rem;
-  }
-}
+
 
 /*--------------------------------------------------------------- */
 /* HEADER /* 
 /*--------------------------------------------------------------- */
 
-@media screen and (max-width: 450px) {
-  .titlebar h2,
-  .titlebar h1 {
-    font-size: 30px;
-  }
-}
 
 .home {
   height: 80px;
@@ -61,6 +36,7 @@ header {
   height: 100vh;
   background-attachment: fixed;
   background-size: cover;
+
 }
 
 .navbar {
@@ -74,10 +50,28 @@ header {
   color: #171421;
 }
 
+.fa-angle-down {
+  background-color: #171421;
+  border: 1px solid #171421;
+  color: #fff;
+ position: absolute;
+ top: 170%;
+  transition: all .2s;
+
+}
+
+.fa-angle-down:hover {
+  background-color: #171421;
+  color: #f8f8f8;
+  transform: translateY(3px);
+  
+}
+
+
 .titlebar {
   position: absolute;
   width: 100%;
-  top: 30%;
+  top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
@@ -141,6 +135,13 @@ header {
     padding: 10px;
   }
 }
+@media screen and (max-width: 450px) {
+  .titlebar h2,
+  .titlebar h1 {
+    font-size: 30px;
+
+  }
+}
 /*--------------------------------------------------------------- */
 /* About me /* 
 /*--------------------------------------------------------------- */
@@ -171,6 +172,14 @@ h4 {
   font-size: 40px;
 }
 
+
+a.anchor {
+  display: block;
+  position: relative;
+  top: -100px;
+  visibility: hidden;
+}
+
 @media screen and (max-width: 800px) {
   .blog,
   .blogtxt {
@@ -178,13 +187,6 @@ h4 {
     padding: 10px;
     margin: 10px;
   }
-}
-
-a.anchor {
-  display: block;
-  position: relative;
-  top: -100px;
-  visibility: hidden;
 }
 /*--------------------------------------------------------------- */
 /* Skills /* 
@@ -332,6 +334,16 @@ textarea {
   resize: vertical;
 }
 
+input[type="email"],
+select,
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+
 input[type="submit"] {
   background-color: #171421;
   color: white;
@@ -342,6 +354,18 @@ input[type="submit"] {
 }
 
 input[type="submit"]:hover {
+  background-color: #959895;
+}
+input[type="reset"] {
+  background-color: #171421;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type="reset"]:hover {
   background-color: #959895;
 }
 
@@ -368,6 +392,15 @@ input[type="submit"]:hover {
   .contact,
   .container,
   input[type="submit"] {
+    width: 100%;
+    margin: 0;
+    padding: 10px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .contact,
+  .container,
+  input[type="reset"] {
     width: 100%;
     margin: 0;
     padding: 10px;
