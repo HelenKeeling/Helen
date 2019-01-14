@@ -1,9 +1,5 @@
 document.addEventListener("DOMContentLoaded", function() {
-  //change the integers below to match the height of your upper dive, which I called
-  //banner.  Just add a 1 to the last number.  console.log($(window).scrollTop())
-  //to figure out what the scroll position is when exactly you want to fix the nav
-  //bar or div or whatever.  I stuck in the console.log for you.  Just remove when
-  //you know the position.
+
   window.scroll(function() {
     console.log(window.scrollTop());
 
@@ -23,9 +19,9 @@ window.onload = function() {
 };
 
 function submitted(event) {
-  event.preventDefault(); //Stop standard form behavior
+  event.preventDefault(); 
 
-  var formContent = getFormContent(); //Get form values
+  var formContent = getFormContent(); 
 
   var formContentAsJson = JSON.stringify(formContent);
 

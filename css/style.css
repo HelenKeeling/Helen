@@ -36,7 +36,6 @@ header {
   height: 100vh;
   background-attachment: fixed;
   background-size: cover;
-
 }
 
 .navbar {
@@ -54,17 +53,15 @@ header {
   background-color: #171421;
   border: 1px solid #171421;
   color: #fff;
- position: absolute;
- top: 170%;
+  position: absolute;
+  top: 170%;
   transition: all .2s;
-
 }
 
 .fa-angle-down:hover {
   background-color: #171421;
   color: #f8f8f8;
   transform: translateY(3px);
-  
 }
 
 
@@ -162,7 +159,8 @@ header {
 }
 
 .blogtxt {
-  margin: 10px 400px 20px 400px;
+  width: 50%;
+  margin: auto;
 }
 
 h4 {
@@ -185,7 +183,8 @@ a.anchor {
   .blogtxt {
     text-align: center;
     padding: 10px;
-    margin: 10px;
+    text-align: justify;
+    
   }
 }
 /*--------------------------------------------------------------- */
