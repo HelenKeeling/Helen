@@ -270,12 +270,12 @@ p .skills {
 
 .container2 {
   position: relative;
-  padding: 5px;
+  padding: 50px;
   width: 50%;
   float: left;
   flex: 50%;
   max-width: 50%;
-  padding: 0 4px;
+  
   
 }
 
@@ -312,6 +312,7 @@ p .skills {
   transition: .5s ease;
   background-color:black;
   
+  
 }
 
 .container2:hover .overlay {
@@ -320,7 +321,7 @@ p .skills {
 
 .text {
   color: white;
-  font-size: 20px;
+  font-size: 10px;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -328,6 +329,7 @@ p .skills {
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   text-align: center;
+  max-width: 50%;
 }
 
 h6 {
