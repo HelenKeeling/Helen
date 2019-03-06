@@ -17,6 +17,7 @@ body {
 
 
 
+
 /*--------------------------------------------------------------- */
 /* HEADER /* 
 /*--------------------------------------------------------------- */
@@ -32,7 +33,7 @@ body {
 }
 
 header {
-  background-color: #171421;
+  background: linear-gradient(to right, #69bcf4, #30cc8b);
   height: 100vh;
   background-attachment: fixed;
   background-size: cover;
@@ -45,13 +46,12 @@ header {
   z-index: 100;
   position: fixed;
   width: 100%;
-  background-color: #171421;
+  background: linear-gradient(to right, #69bcf4, #30cc8b);
   color: #171421;
 }
 
 .fa-angle-down {
-  background-color: #171421;
-  border: 1px solid #171421;
+
   color: #fff;
   position: absolute;
   top: 170%;
@@ -59,7 +59,7 @@ header {
 }
 
 .fa-angle-down:hover {
-  background-color: #171421;
+  
   color: #f8f8f8;
   transform: translateY(3px);
 }
@@ -74,7 +74,7 @@ header {
   text-align: center;
   font-size: 30px;
   color: #ffffff;
-  font-family: "Caveat", cursive;
+  font-family: 'Roboto', sans-serif;
 }
 
 .navbar li {
@@ -166,7 +166,7 @@ header {
 h4 {
   text-align: center;
   padding-bottom: 10px;
-  font-family: "Caveat", cursive;
+  font-family: 'Roboto', sans-serif;
   font-size: 40px;
 }
 
@@ -182,7 +182,7 @@ a.anchor {
   .blog,
   .blogtxt {
     text-align: center;
-    padding: 10px;
+   
     text-align: justify;
     
   }
@@ -197,6 +197,7 @@ a.anchor {
   text-align: center;
   font-size: 15px;
   padding: 20px;
+  
 }
 
 .row:after {
@@ -220,7 +221,7 @@ a.anchor {
 }
 h5 {
   text-align: center;
-  font-family: "Caveat", cursive;
+  font-family: 'Roboto', sans-serif;
   font-size: 40px;
 }
 p .skills {
@@ -238,6 +239,7 @@ p .skills {
   .skillsection {
     margin: 0;
     padding: 10px;
+    
   }
 
   .column {
@@ -249,7 +251,7 @@ p .skills {
 /*--------------------------------------------------------------- */
 
 h6 {
-  font-family: "Caveat", cursive;
+  font-family: 'Roboto', sans-serif;
   font-size: 40px;
   text-align: center;
 }
@@ -384,7 +386,7 @@ input[type="reset"]:hover {
 .contactedtext {
   font-size: 35px;
   text-align: center;
-  font-family: "Caveat", cursive;
+  font-family: 'Roboto', sans-serif;
 }
 
 @media screen and (max-width: 450px) {
