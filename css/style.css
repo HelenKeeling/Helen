@@ -192,8 +192,8 @@ a.anchor {
   .blog,
   .blogtxt {
     text-align: center;
-   
     text-align: justify;
+    
     
   }
 }
@@ -363,7 +363,9 @@ textarea {
 }
 
 input[type="submit"] {
-  background: linear-gradient(to right, #69bcf4, #30cc8b);;
+  
+  background-color: #69bcf4;
+
   color: white;
   padding: 12px 20px;
   border: none;
@@ -372,10 +374,10 @@ input[type="submit"] {
 }
 
 input[type="submit"]:hover {
-  background-color: #959895;
+  background-color: #30cc8b;
 }
 input[type="reset"] {
-  background: linear-gradient(to right, #69bcf4, #30cc8b);
+  background-color: #69bcf4;
   color: white;
   padding: 12px 20px;
   border: none;
@@ -384,7 +386,7 @@ input[type="reset"] {
 }
 
 input[type="reset"]:hover {
-  background-color: #959895;
+  background-color: #30cc8b;
 }
 
 .container {
