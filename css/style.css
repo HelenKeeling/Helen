@@ -293,6 +293,13 @@ p .skills {
   
 }
 
+#project2 {
+  background-color: black;
+}
+
+#project2 {
+  background-color: grey;
+}
 .overlay {
   position: absolute;
   top: 0;
