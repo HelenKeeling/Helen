@@ -273,18 +273,24 @@ p .skills {
   max-width:50%;
   background-color: white;
   
+  
 }
 
 .main:after {
   content: "";
   display: table;
   clear: both;
+  
 }
 
 .image {
   display: block;
   width: 100%;
   height: auto;
+  padding-left: 30px;
+  padding-right: 10px;
+  
+  
   
  
   
@@ -292,30 +298,30 @@ p .skills {
 
 #project1 {
   background-color: black;
+  padding: 30px;
 }
 
 #project2 {
   background-color: grey;
+  padding: 30px;
 }
 .overlay {
   position: absolute;
   top: 0;
   bottom: 0;
-  left: 0;
-  right: 0;
+  left: 30px;
+  right: 10px;
   height: 100%;
   width: 100%;
   opacity: 0;
   transition: .5s ease;
   
   
-  
-  
-  
 }
 
 .container2:hover .overlay {
   opacity: 1;
+ 
 }
 
 .text {
@@ -329,6 +335,7 @@ p .skills {
   transform: translate(-50%, -50%);
   text-align: center;
   max-width: 50%;
+ 
 }
 
 h6 {
@@ -344,7 +351,7 @@ h6 {
   max-width: 100%;
   margin: 20px;
   background-color: #ffff;
-  
+
 
   
 }
