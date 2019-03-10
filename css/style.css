@@ -491,16 +491,11 @@ input[type="reset"]:hover {
     
     margin: 0;
     padding: 10px;
+    width: 100%;
   }
 }
 @media screen and (max-width: 450px) {
-  .contact,
-  .container,
-  {
-    width: 100%;
-    margin: 0;
-    padding: 10px;
-  }
+ 
   input[type="reset"] {
     display: none;
   }
