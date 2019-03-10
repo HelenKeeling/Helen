@@ -506,16 +506,6 @@ input[type="reset"]:hover {
   }
 }
 
-@media screen and (min-width: 1900px) {
-  .contact,
-  .container,
-  {
-    width: 0%;
-    margin: 0;
-    padding: 10px;
-  }
- 
-}
 
 /*--------------------------------------------------------------- */
 /* FOOTER /* 
