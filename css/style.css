@@ -130,15 +130,14 @@ header {
   .navbar li {
     font-size: 20px;
     margin: 0;
+    
+    
   }
   .home {
     display: none;
   }
-  .navbar li a,
-  .navbar li {
-    margin: 0;
-    padding: 10px;
-  }
+ 
+  
 }
 @media screen and (max-width: 450px) {
   .titlebar h2,
@@ -146,7 +145,26 @@ header {
     font-size: 30px;
 
   }
+  .navbar,
+  .navbar li a,
+  .navbar li {
+    font-size: 15px;
+    margin: 0;
+    font-weight: 300;
+  }
+  .fa-angle-down {
+
+    top: 220%;
+   right: 42%;
+    
+  }
+  
+  
 }
+
+
+
+
 /*--------------------------------------------------------------- */
 /* About me /* 
 /*--------------------------------------------------------------- */
@@ -470,7 +488,7 @@ input[type="reset"]:hover {
   .contact,
   .container,
   input[type="submit"] {
-    width: 100%;
+    
     margin: 0;
     padding: 10px;
   }
@@ -486,6 +504,17 @@ input[type="reset"]:hover {
   input[type="reset"] {
     display: none;
   }
+}
+
+@media screen and (min-width: 1900px) {
+  .contact,
+  .container,
+  {
+    width: 0%;
+    margin: 0;
+    padding: 10px;
+  }
+ 
 }
 
 /*--------------------------------------------------------------- */
