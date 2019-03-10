@@ -493,11 +493,14 @@ input[type="reset"]:hover {
     padding: 10px;
     width: 100%;
   }
-}
-@media screen and (max-width: 450px) {
  
   input[type="reset"] {
     display: none;
+  }
+
+  input[type="submit"] {
+    width: auto;
+    
   }
 }
 
