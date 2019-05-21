@@ -15,7 +15,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
 window.onload = function() {
   var form = document.getElementById("formid");
-  form.onsubmit = submitted.bind(form);
+  //form.onsubmit = submitted.bind(form);
 };
 
 function submitted(event) {
