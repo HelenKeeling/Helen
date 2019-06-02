@@ -14,8 +14,14 @@
       href="https://unpkg.com/ionicons@4.5.0/dist/css/ionicons.min.css"
       rel="stylesheet"
     />
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     <link rel="stylesheet" type="text/css" href="css/style.css" />
   
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
     <link
       href="https://fonts.googleapis.com/css?family=Caveat"
       rel="stylesheet"
@@ -34,19 +40,37 @@
       <header>
         <a id="home"></a>
         <!-------Nav Bar-------->
-        <nav>
-          <div class="navbar" id="mynavbar">
-            <ul class="navbar">
-              <a href="#home"
-                ><img src="img/me.jpg" alt="Picture of me" class="home"
-              /></a>
-              <li><a href="#contactme">Contact me</a></li>
-              <li><a href="#skills">Skills</a></li>
-              <li><a href="#project">Projects</a></li>
-              <li><a href="#about">About me</a></li>
-            </ul>
-          </div>
-        </nav>
+      
+
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a href="#home"
+            ><img src="img/me.jpg" alt="Picture of me" class="home"
+          /></a>
+          
+
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+        
+          
+
+            <div class="collapse navbar-collapse justify-content-end" id="collapsibleNavbar">
+                <ul class="navbar-nav">
+               
+                    <li><a href="#about">About me</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#project">Projects</a></li>
+                    <li><a href="#contactme">Contact me</a></li>
+                  </ul>
+                
+           
+           
+            </div>
+          </nav>
+
+       
+    
+       
 
         <!-------Hero-------->
         <div class="titlebar">
@@ -287,6 +311,7 @@
 
         <p>Helen Keeling - 2019</p>
       </footer>
+    
       <script type="text/javascript" src="js/script.js"></script>
     </body>
   </head>

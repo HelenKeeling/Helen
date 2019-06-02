@@ -46,7 +46,7 @@ header {
 }
 
 .navbar {
-  float: right;
+  float: none;
   list-style: none;
   margin-right: 10px;
   z-index: 100;
@@ -103,63 +103,6 @@ header {
 .navbar li a:hover,
 .navbar li a:active {
   border-bottom: 2px solid #f8f8f8;
-}
-
-@media screen and (max-width: 450px) {
-  .navbar {
-    font-size: 12px;
-    margin: 0;
-    padding: 0;
-    
-  }
-  .home {
-    display: none;
-  }
-
-  .navbar li a,
-  .navbar li {
-    margin: 0;
-    padding: 10px;
-    
-  }
-}
-
-@media screen and (max-width: 320px) {
-  .navbar,
-  .navbar li a,
-  .navbar li {
-    font-size: 20px;
-    margin: 0;
-    
-    
-  }
-  .home {
-    display: none;
-  }
- 
-  
-}
-@media screen and (max-width: 450px) {
-  .titlebar h2,
-  .titlebar h1 {
-    font-size: 30px;
-
-  }
-  .navbar,
-  .navbar li a,
-  .navbar li {
-    font-size: 15px;
-    margin: 0;
-    font-weight: 300;
-  }
-  .fa-angle-down {
-
-    top: 220%;
-   right: 42%;
-    
-  }
-  
-  
 }
 
 
