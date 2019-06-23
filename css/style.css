@@ -46,7 +46,7 @@ header {
 }
 
 .navbar {
-  float: none;
+  float: right;
   list-style: none;
   margin-right: 10px;
   z-index: 100;
