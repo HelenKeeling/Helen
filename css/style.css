@@ -297,7 +297,6 @@ p .skills {
   background-color: #1b1b1b;
 }
 
-
 .projecttitle {
   font-weight: 600;
   font-size: 20px;
@@ -337,7 +336,6 @@ p .skills {
   position: relative;
   float: left;
   margin: 5px;
-
   text-align: center;
   color: white;
   text-shadow: 1px 1px 1px #ccc;
@@ -347,7 +345,6 @@ p .skills {
 }
 
 
-
 h6 {
   font-family: 'Roboto', sans-serif;
   font-size: 40px;
@@ -355,30 +352,6 @@ h6 {
   font-weight: 100;
   padding: 30px;
 }
-
-
-
-@media screen and (max-width: 900px) {
-  .container2 {
-    width: 50%;
-    -ms-flex: 100%;
-    flex: 100%;
-    max-width: 100%;
-  }
-
-}
-
-@media screen and (max-width: 600px) {
-  .container2 {
-    width: 100%;
-    -ms-flex: 100%;
-    flex: 100%;
-    max-width: 100%;
-
-  }
-  
-}
-*/
 
 /*--------------------------------------------------------------- */
 /* Contact box /* 
