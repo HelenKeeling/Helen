@@ -50,7 +50,8 @@ header {
   position: fixed;
   width: 100%;
   background: linear-gradient(to right, #69bcf4, #30cc8b);
-  
+  color: #ffffff;
+  font-weight: 600;
 }
 
 .fa-angle-down {
@@ -102,9 +103,39 @@ header {
   border-bottom: 2px solid #f8f8f8;
 }
 
+@media screen and (min-width: 1400px) {
+  .navbar{
+    font-weight: 1000;
+    font-size: 40px;
+   
+   
+  }
+}
 
+@media screen and (min-width: 1600px) {
+  .navbar{
+    font-weight: 1000;
+    font-size: 40px;
+   
+  }
+}
 
-
+@media screen and (min-width: 1900px) {
+  .navbar{
+    font-weight: 1000;
+    font-size: 40px;
+   
+   
+  }
+}
+@media screen and (min-width: 1024px) {
+  .navbar{
+    font-weight: 1000;
+    font-size: 40px;
+   
+   
+  }
+}
 /*--------------------------------------------------------------- */
 /* About me /* 
 /*--------------------------------------------------------------- */
@@ -155,6 +186,18 @@ a.anchor {
     
   }
 }
+
+@media screen and (min-width: 1400px) {
+  .blog,
+  .blogtxt {
+    
+    padding: 30px;
+    width: 100%;
+    text-align: center;
+    text-align: ;
+  }
+}
+
 /*--------------------------------------------------------------- */
 /* Skills /* 
 /*--------------------------------------------------------------- */
