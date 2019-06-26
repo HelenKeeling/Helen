@@ -15,9 +15,6 @@ body {
   overflow-x: hidden;
 }
 
-
-
-
 /*--------------------------------------------------------------- */
 /* HEADER /* 
 /*--------------------------------------------------------------- */
@@ -115,7 +112,7 @@ header {
 .blog {
   text-align: justify;
   padding: 10px;
-font-weight: 100;
+  font-weight: 100;
   background-color: white;
   color: #171421;
   font-size: 15px;
@@ -168,7 +165,6 @@ a.anchor {
   text-align: center;
   font-size: 15px;
   padding: 30px;
-  
   
 }
 
@@ -531,23 +527,10 @@ footer {
 footer p {
   color: white;
   text-align: center;
-  margin-top: 20px;
+  
 }
 
-@media screen and (max-width: 450px) {
-  .footer-nav {
-    text-align: center;
-    padding: 10px;
-    margin: 10px;
-    font-size: 10px;
-  }
-  .social-links {
-    text-align: center;
-    padding: 10px;
-    margin: 10px;
-    font-size: 10px;
-  }
-}
+
 
 @media screen and (max-width: 450px) {
   .footer-nav {
