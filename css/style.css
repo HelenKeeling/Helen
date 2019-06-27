@@ -194,7 +194,7 @@ a.anchor {
     padding: 30px;
     width: 100%;
     text-align: center;
-    text-align: ;
+    text-align: justify;
   }
 }
 
@@ -608,5 +608,7 @@ footer p {
 }
 
 
-
+.display {
+  background-color: #1b1b1b
+}
 
