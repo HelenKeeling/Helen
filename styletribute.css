@@ -1,12 +1,12 @@
-blockquote{
+blockquote {
     font-style: italic;
     text-align: center;
     margin: 10px;;
   }
 
-  html body{
+  html body {
     font-family: 'Lato', sans-serif;
-    min-width:260px;
+    
     background-color:white;
     color: black;
   }
@@ -14,26 +14,30 @@ blockquote{
     padding: 10px;
 }
  
-#title{
+#title {
     text-align: center;
 }
-.title{
+.title { 
     text-align: center;
 }
 #main {
-    border-radius:10px;
+border-radius:10px;
    background-color:rgb(241, 240, 240);
    margin: 40px;
+   
 }
 
-img{
-    max-width: 100%; 
+img {
+    
     display: block; 
-    height: auto;
+    max-width: 100%;
+  height: 400px;
     margin: auto;
     border-radius: 10px;
   
   }
+
+
 #img-div{
     
     
@@ -42,20 +46,50 @@ img{
     
     
 }
-#img-caption{
+#img-caption {
     text-align: center;
     padding: 10px;
 }
-#tribute-info{
+#tribute-info {
     background-color: white;
     border-radius:10px;
     margin: 40px;
 }
-li{
+li{ 
     padding: 5px;
 }
-    ul{
-        max-width:550px;
-        margin:0 auto;
-        text-align:left;
+ul{ 
+    max-width:550px;
+    margin:0 auto;
+    text-align:left;
+}
+
+@media screen and (max-width: 450px) {
+    img {
+    
+        display: block; 
+        max-width: 100%;
+       height: 200px;
+        margin: auto;
+        border-radius: 10px;
+      
       }
+
+      #tribute-info {
+     
+        margin: 20px;
+    }
+
+    #main {
+     
+           margin: 20px;
+        }
+    }
+
+    @media screen and (max-width: 800px) {
+        
+        #main {
+         
+               margin: 20px;
+            }
+        }
