@@ -15,9 +15,6 @@ body {
   overflow-x: hidden;
 }
 
-
-
-
 /*--------------------------------------------------------------- */
 /* HEADER /* 
 /*--------------------------------------------------------------- */
@@ -53,7 +50,8 @@ header {
   position: fixed;
   width: 100%;
   background: linear-gradient(to right, #69bcf4, #30cc8b);
-  
+  color: #ffffff;
+  font-weight: 600;
 }
 
 .fa-angle-down {
@@ -81,23 +79,33 @@ header {
   font-size: 30px;
   color: #ffffff;
   font-family: 'Roboto', sans-serif;
+  color: #ffffff;
 }
 
 .navbar li {
   margin-left: 40px;
   padding: 8px;
   float: right;
+  color: #ffffff;
 }
 
-.navbar li a:link,
-.navbar li a:visited {
+.navbar-light .navbar-nav .nav-link {
+  color: #ffffff;
+  font-size: 70%;
+ font-weight: 550;
+  font-family: 'Roboto', sans-serif;
+}
+
+
+
+.navbar-light a:link,
+.navbar-nav a:visited {
   padding: 8px 0;
-  color: #fff;
   text-decoration: none;
-  text-transform: uppercase;
   font-size: 60%;
   border-bottom: 2px solid transparent;
   transition: border-bottom 0.2s;
+  color: #ffffff;
 }
 
 .navbar li a:hover,
@@ -105,9 +113,40 @@ header {
   border-bottom: 2px solid #f8f8f8;
 }
 
+@media screen and (min-width: 1400px) {
+  .navbar{
+    font-weight: 1000;
+    font-size: 40px;
+   
+   
+  }
+}
 
+@media screen and (min-width: 1600px) {
+  .navbar{
+    font-weight: 1000;
+    font-size: 40px;
+   
+  }
+}
 
-
+@media screen and (min-width: 1900px) {
+  .navbar{
+    font-weight: 1000;
+    font-size: 40px;
+   
+   
+  }
+}
+@media screen and (min-width: 1024px) {
+  .navbar{
+    font-weight: 1000;
+    font-size: 20px;
+   
+   
+   
+  }
+}
 /*--------------------------------------------------------------- */
 /* About me /* 
 /*--------------------------------------------------------------- */
@@ -115,7 +154,7 @@ header {
 .blog {
   text-align: justify;
   padding: 10px;
-font-weight: 100;
+  font-weight: 100;
   background-color: white;
   color: #171421;
   font-size: 15px;
@@ -140,6 +179,9 @@ h4 {
   font-weight: 100;
 }
 
+.showHide  {
+  display: none;
+}
 
 a.anchor {
   display: block;
@@ -158,6 +200,32 @@ a.anchor {
     
   }
 }
+
+@media screen and (min-width: 2560px) {
+  .blog,
+  .blogtxt {
+    
+    padding: 30px;
+    width: 100%;
+    text-align: center;
+    text-align: justify;
+    
+  }
+    .showHide  { 
+      display: inline; 
+      height: auto;
+      width: 100%;
+    }
+  
+    .big {
+      float: right;
+      
+    }
+
+    
+  }
+
+
 /*--------------------------------------------------------------- */
 /* Skills /* 
 /*--------------------------------------------------------------- */
@@ -168,7 +236,6 @@ a.anchor {
   text-align: center;
   font-size: 15px;
   padding: 30px;
-  
   
 }
 
@@ -201,11 +268,15 @@ p .skills {
   text-align: justify;
   padding: 30px;
   margin: 10px;
+
 }
 
 .skillsection {
   background-color: #eae7e7;
   padding: 10px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  text-align: justify;
 }
 
 @media screen and (max-width: 500px) {
@@ -227,26 +298,28 @@ p .skills {
 /* PROJECTS /* 
 /*--------------------------------------------------------------- */
 
-/*WORK */
 
 #work {
   position: relative;
   width: 100%;
   height: auto;
   margin-top: 10px;
-  padding: 10px;
+  padding: 10px 10px 0px 10px;
 }
 
 
 
 .work-img {
-  width: 50%;
+ 
   min-width: 100%;
   position: relative;
   display: inline-block;
   border: 0;
-
   border-radius: 10px;
+  height: 70%;
+  width: 100%;
+  overflow: hidden;
+  
 }
 
 .img-link {
@@ -257,19 +330,14 @@ p .skills {
 .work-img img {
   background-repeat: no-repeat;
   background-size: auto;
+  height: auto;
   width: 100%;
+  
 }
 
-.project-img {
-  background-repeat: no-repeat;
-  background-size: cover;
-  transform: scale(200%);
-  border-radius: 50%;
-} 
 
 
-
-.work-img:hover .overlay {
+/* .work-img:hover .overlay {
   opacity: 1;
 }
 
@@ -296,7 +364,7 @@ p .skills {
 #ov2 {
   background-color: #1b1b1b;
 }
-
+*/
 .projecttitle {
   font-weight: 600;
   font-size: 20px;
@@ -318,6 +386,7 @@ p .skills {
   width: 100%;
   height: 100%;
   margin: 2px;
+  background: rgba(0, 0, 0, 0.6);
 }
 
 .projectbody {
@@ -350,9 +419,106 @@ h6 {
   font-size: 40px;
   text-align: center;
   font-weight: 100;
-  padding: 30px;
+  padding: 20px;
 }
 
+@media screen and (max-width: 500px) {
+  .projecttext {
+    color: white;
+    font-size: 5px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: left;
+    width: 100%;
+    height: 100%;
+    margin: 2px;
+    background: rgba(0, 0, 0, 0.6);
+  }
+  
+  .projectbody {
+    font-weight: 600;
+    font-size: 10px;
+    position: absolute;
+    bottom: 40%;
+    text-align: left;
+    width: 80%;
+    margin: 2px;
+  }
+  
+  
+  .icons {
+    display: inline-block;
+    position: relative;
+    float: left;
+    margin: 5px;
+    text-align: center;
+    color: white;
+    text-shadow: 1px 1px 1px #ccc;
+    font-size: 15px;
+    padding-top: 28%;
+    
+  }
+
+  .projecttitle {
+    font-weight: 600;
+    font-size: 15px;
+    position: absolute;
+    width: 70%;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .projecttext {
+    color: white;
+    font-size: 5px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: left;
+    width: 100%;
+    height: 100%;
+    margin: 2px;
+    background: rgba(0, 0, 0, 0.6);
+  }
+  
+  .projectbody {
+    font-weight: 600;
+    font-size: 10px;
+    position: absolute;
+    bottom: 40%;
+    text-align: left;
+    width: 80%;
+    margin: 2px;
+  }
+  
+  
+  .icons {
+    display: inline-block;
+    position: relative;
+    float: left;
+    margin: 5px;
+    text-align: center;
+    color: white;
+    text-shadow: 1px 1px 1px #ccc;
+    font-size: 15px;
+    padding-top: 28%;
+    
+  }
+
+  .projecttitle {
+    font-weight: 600;
+    font-size: 15px;
+    position: absolute;
+    width: 70%;
+  }
+}
 /*--------------------------------------------------------------- */
 /* Contact box /* 
 /*--------------------------------------------------------------- */
@@ -386,9 +552,7 @@ textarea {
 }
 
 input[type="submit"] {
-  
   background-color: #69bcf4;
-
   color: white;
   padding: 12px 20px;
   border: none;
@@ -424,6 +588,9 @@ input[type="reset"]:hover {
   background-color: #eae7e7;
   font-size: 70%;
   
+}
+label {
+  margin: 0;
 }
 
 .contactedtext {
@@ -531,23 +698,10 @@ footer {
 footer p {
   color: white;
   text-align: center;
-  margin-top: 20px;
+  
 }
 
-@media screen and (max-width: 450px) {
-  .footer-nav {
-    text-align: center;
-    padding: 10px;
-    margin: 10px;
-    font-size: 10px;
-  }
-  .social-links {
-    text-align: center;
-    padding: 10px;
-    margin: 10px;
-    font-size: 10px;
-  }
-}
+
 
 @media screen and (max-width: 450px) {
   .footer-nav {
