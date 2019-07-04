@@ -202,24 +202,25 @@ a.anchor {
 }
 
 @media screen and (min-width: 2560px) {
-  .blog,
+ 
+
   .blogtxt {
-    
-    padding: 30px;
-    width: 100%;
-    text-align: center;
-    text-align: justify;
-    
+    display: inline;
+    padding: 30px 30px 30px 700px;
+    vertical-align: middle;
+    float: left;
   }
     .showHide  { 
-      display: inline; 
-      height: auto;
-      width: 100%;
+      display: inline;
     }
   
     .big {
-      float: right;
-      
+      float: middle;
+      max-width:500px;
+      max-height:400px;
+      width: auto;
+      height: auto;
+     
     }
 
     
