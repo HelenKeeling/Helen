@@ -205,7 +205,7 @@ a.anchor {
  
 
   .blogtxt {
-    display: inline;
+    
     padding: 30px 30px 30px 700px;
     vertical-align: middle;
     float: left;
@@ -391,8 +391,7 @@ h6 {
   background-color: #eae7e7;
   padding: 10px;
   font-weight: 100;
-  
-  
+
 }
 
 input[type="text"],
