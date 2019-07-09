@@ -3,28 +3,30 @@
 body {
   padding: 0;
   margin: 0;
-  background: linear-gradient(to right, #00AAFF, #00FF6C);
+  background: #23cccc;
+  display: inline-block;
 }
 
 .calculator-grid {
   display: grid;
   justify-content: center;
   align-content: center;
-  min-height: 100vh;
-  grid-template-columns: repeat(4, 100px);
-  grid-template-rows: minmax(120px, auto) repeat(5, 100px);
+  grid-template-columns: repeat(4, 1fr);
+  grid-row-gap: 1px;
+  grid-column-gap: 1px;
+  background: white;
 }
 
 .calculator-grid > button {
   cursor: pointer;
   font-size: 2rem;
-  border: 1px solid white;
+  border: 1px solid black;
   outline: none;
   background-color: rgba(255, 255, 255, .75);
 }
 
 .calculator-grid > button:hover {
-  background-color: rgba(255, 255, 255, .9);
+  background-color: rgba(231, 8, 8, 0.9);
 }
 
 .span-two {
@@ -52,3 +54,6 @@ body {
   color: white;
   font-size: 2.5rem;
 }
+
+
+ 
