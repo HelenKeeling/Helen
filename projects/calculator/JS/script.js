@@ -34,26 +34,26 @@ class Calculator
 
  
 
-    Compute() {
+    compute() {
     let computation
     const prev = parseFloat(this.previousOperand)
     const current = parseFloat(this.currentOperand)
     if (isNaN(prev) || isNaN(current)) return
     switch (this.operation) {
 
-        case " + ":
+        case "+":
                 computation = prev + current
         break 
 
-        case " - ":
+        case "-":
                 computation = prev - current
         break 
         
-        case " * ":
+        case "x":
                  computation = prev * current
         break 
 
-        case " / ":
+        case "÷":
                 computation = prev / current
         break 
         
@@ -95,7 +95,6 @@ this.previousOperand = " "
     }
 
 
-
 const numberButtons = document.querySelectorAll("[data-number")
 const operationButtons = document.querySelectorAll("[data-operation")
 const equalsButton = document.querySelector("[data-equals")
@@ -122,7 +121,7 @@ numberButtons.forEach(button => {
 })
 
 equalsButton.addEventListener("click", button => {
-    calculator.Compute()
+    calculator.compute()
     calculator.updateDisplay()
 })
 
