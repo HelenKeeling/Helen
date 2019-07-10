@@ -5,9 +5,9 @@ this.currentOperandTextElement = currentOperandTextElement
 }
 
 clear() {
-this.previousOperand = " " 
-this.currentOperand = " " 
-this.operation = " "
+/*this.previousOperand = " " ?????
+this.currentOperand = " "  ????? 
+this.operation = " " ????? */
 }
 
 delete() {
@@ -15,7 +15,7 @@ delete() {
 
 appendNumber(number) {
     if (number === '.' && this.currentOperand.includes('.')) return
-    this.currentOperand = this.currentOperand.toString() + number.toString()
+    this.currentOperandTextElement.innerText = this.currentOperandTextElement.innerText += number.toString()
 }
 
 chooseOperation(operation) {
@@ -46,7 +46,7 @@ const calculator = new Calculator(previousOperandTextElement, currentOperandText
 numberButtons.forEach(button => {
 button.addEventListener("click", () => {
 calculator.appendNumber(button.innerText)
-calculator.updateDisplay()
+//calculator.updateDisplay() ?
 
 })
 
