@@ -15,12 +15,10 @@ delete() {
 
 appendNumber(number) {
     if (number === '.' && this.currentOperand.includes('.')) return
-    this.currentOperandTextElement.innerText += number.toString();
+    this.currentOperandTextElement.innerText = this.currentOperandTextElement.innerText += number.toString()
 }
 
 chooseOperation(operation) {
-    this.previousOperandTextElement.innerText += (" " + this.currentOperandTextElement);
-    this.currentOperandTextElement.innerText = operation.toString();
 }
 
 Compute() {
