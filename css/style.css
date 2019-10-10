@@ -223,16 +223,31 @@ a.anchor {
   clear: both;
 }
 
-.ion-logo-css3 {
+.fa-css3-alt
+{
   font-size: 64px;
   text-align: center;
 }
-.ion-logo-javascript {
+.fa-js-square {
   text-align: center;
   font-size: 64px;
 }
 
-.ion-logo-html5 {
+.fa-html5 {
+  text-align: center;
+  font-size: 64px;
+}
+
+.fa-php{
+  text-align: center;
+  font-size: 64px;
+}
+.fa-laravel {
+  text-align: center;
+  font-size: 64px;
+}
+
+.fa-github-square {
   text-align: center;
   font-size: 64px;
 }
