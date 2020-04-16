@@ -4,8 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-          integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="css/style.css" />
     <link rel="stylesheet" href="https://unpkg.com/ionicons@4.5.0/dist/css/ionicons.min.css" />
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
@@ -51,6 +50,7 @@
       </header>
       <!-------About Me-------->
       <a class="anchor" id="about"></a>
+      <div class="col-sm-12"> 
         <div class="blog">
           <h4>Hello &amp; Welcome</h4>
           <p class="blogtxt">
@@ -71,63 +71,69 @@
             </div>
           </p>
         </div>
+      </div>
       <!-- Skills -->
       <a class="anchor" id="skills"></a>
       <div class="skillsection">
           <div class="container-fluid bg-3 text-center">
               <h6>Skills</h6>
-              <div class="row">
-                <div class="col-sm-4">
+              <div class="row d-flex justify-content-center">
+                <div class="col-sm-1">
                   <i class="fab fa-html5"></i>
                   <p class="skill">
                     <h5>HTML</h5>
-                    I have a good understanding of HTML. I am focused on learning
-                    best practices and writing clean code. I continue to expand my knowledge by
-                      utilising courses on Udemy along with other resources such as Codecademy.
                   </p>
                 </div>
-                <div class="col-sm-4">
+                <div class="col-sm-1">
                   <i class="fab fa-css3-alt"></i>
                   <p class="skill">
                       <h5>CSS</h5>
-                    Along with HTML, I have a good understanding of CSS. I am able to make
-                    responsive websites when putting my designs into code. I have also dabbled in Bootstrap
-                    but continue to improve my skills in this area.
+            
                   </p>
                 </div>
-                <div class="col-sm-4">
+                <div class="col-sm-1">
                   <i class="fab fa-js-square"></i>
                   <p class="skill">
                       <h5>Javascript</h5>
-                    Javascript is a new skill I have acquired and I continue to expand my knowledge in this area.
-                    I enjoy using javascript to my websites more interactive for the user. All 3 skills listed here
-                    have been used to build this website.
+        
                   </p>
                 </div>
-                <div class="col-sm-4">
+                <div class="col-sm-1">
                   <i class="fab fa-php"></i>
                   <p class="skill">
                       <h5>PHP</h5>
-                      PHP is the main language used at the company I work for as a junior developer. Since August 2019, I have 
-                      been exposed to PHP at a commerical level and continue to improve my development via training websites such
-                      as Laracast as well as learning from the senior developers that I work with.
                   </p>
                 </div>
-                <div class="col-sm-4">
+                <div class="col-sm-1">
                   <i class="fab fa-laravel"></i>
                   <p class="skill">
                       <h5>Laravel</h5>
-                    Laravel was a new framework to me in August 2019, I have continued my learning via Laracast in my spare time
-                    as well as on the job training. 
+               
                   </p>
                 </div>
-                <div class="col-sm-4">
+                <div class="col-sm-2">
                   <i class="fab fa-github-square"></i>
                   <p class="skill">
                       <h5>Github</h5>
-                    I have been using Github since 2018 however since starting my job as a junior developer, I have been
-                    using Github in a commerical capacity which has helped improve my skill level and also provided me with
-                    more confidence using the command line.
+                
+                  </p>
+                </div>
+                <div class="col-sm-1">
+                  <i class="fab fa-bootstrap"></i>
+                  <p class="skill">
+                      <h5>Bootstrap</h5>
+                  </p>
+                </div>
+                <div class="col-sm-1">
+                  <i class="fab fa-jira"></i>
+                  <p class="skill">
+                      <h5>Jira</h5>
+                  </p>
+                </div>
+                <div class="col-sm-1">
+                  <i class="fab fa-git-alt"></i>
+                  <p class="skill">
+                      <h5>Git</h5>
                   </p>
                 </div>
               </div>
@@ -137,56 +143,50 @@
       <!-- Projects -->
       <a class="anchor" id="projects"></a>
       <section id="work">
-         <h6>Projects</h6>
-         <div class="row">
-            <div class="col-sm">
-              <div class="work-img">
-                <a href="projects/tribute/index.html">
-                <img src="img/Tribute.png" alt="Tribute" class="image">
-                <div class="projecttext">
-                  <p class="projecttitle">Tribute Page</p>
-                  <p class="projectbody">Simple tribute page<br>Technologies I've used:</p>
-                  <div class="icons">
-                    <i class="icon ion-logo-html5"></i>
-                    <i class="fab fa-css3"></i>
-                  </div>
-                </div>
-              </a>
+        <h6>Projects</h6>
+        <div class="card-deck">
+          <div class="card">
+            <a href="projects/tribute/index.html" target="_blank"> 
+            <img class="card-img-top" src="img/starry-night.jpg" alt="Tribute page">
+            </a>
+            <div class="card-body">
+              <h5 class="card-title">Tribute page</h5>
+              <p class="card-text text-center">Simple tribute page.<br><br>Technologies used:</p>
+              <div class="icons">
+                <i class="icon ion-logo-html5"></i>
+                <i class="fab fa-css3"></i>
               </div>
+
+            </div>
           </div>
-          <div class="col-sm">
-            <div class="work-img">
-                <a href="projects/calculator/index.html">
-                <img src="img/Calc.png" alt="Calc" class="image">
-                    <div class="projecttext">
-                      <p class="projecttitle">Calculator</p>
-                      <p class="projectbody">Simple calculator page<br>Technologies I've used:</p>
-                      <div class="icons">
-                        <i class="icon ion-logo-html5"></i>
-                        <i class="fab fa-css3"></i>
-                        <i class="fab fa-js"></i>
-                      </div>
-                  </div>
-                </a>
+          <div class="card">
+            <a href="projects/calculator/index.html" target="_blank"> 
+            <img class="card-img-top" src="img/calc copy.png" alt="Calculator">
+            </a>
+            <div class="card-body">
+              <h5 class="card-title">Calculator</h5>
+              <p class="card-text text-center">Simple calculator page.<br><br>Technologies used: </p>
+              <div class="icons">
+                <i class="icon ion-logo-html5"></i>
+                <i class="fab fa-css3"></i>
+                <i class="fab fa-js"></i>
               </div>
             </div>
-          <div class="col-sm">
-          <div class="work-img">
-              <a href="https://github.com/HelenKeeling/omnifood">
-               <img src="img/unnamed.jpg" alt="Omifood" class="image">
-                  <div class="projecttext">
-                    <p class="projecttitle">Omifood</p>
-                    <p class="projectbody">Omifood webpage for Udemy course<br> Technologies I've used:</p>
-                    <div class="icons">
-                      <i class="icon ion-logo-html5"></i>
-                      <i class="fab fa-css3"></i>
-                    </div>
-                </div>
-              </a>
+          </div>
+          <div class="card">
+            <a href="https://github.com/HelenKeeling/omnifood" target="_blank"> 
+            <img class="card-img-top" src="img/unnamed copy.png" alt="Omifood"></a>
+            <div class="card-body">
+              <h5 class="card-title">Omifood</h5>
+              <p class="card-text text-center">Omifood page for a Udemy course.<br><br>Technologies used:</p>
+              <div class="icons">
+                <i class="icon ion-logo-html5"></i>
+                <i class="fab fa-css3"></i>
+              </div>
             </div>
           </div>
         </div>
-      </section>
+</section>
       <!-- Contact Me -->
       <div class="contact">
         <a class="anchor" id="contactme"></a>
@@ -253,12 +253,10 @@
       </footer>
       <!--JS-->
       <script type="text/javascript" src="js/script.js"></script>
-      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-              integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-              crossorigin="anonymous"></script>
-      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
-      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+      <script src="https://kit.fontawesome.com/71c2cb4bb6.js" crossorigin="anonymous"></script>
+      <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
     </body>
   </head>
 </html>
