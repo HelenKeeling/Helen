@@ -216,50 +216,12 @@ a.anchor {
   clear: both;
 }
 
-.fa-css3-alt
-{
-  font-size: 64px;
-  text-align: center;
-}
-.fa-js-square {
+.skillIcons {
   text-align: center;
   font-size: 64px;
 }
 
-.fa-html5 {
-  text-align: center;
-  font-size: 64px;
-}
-
-.fa-php{
-  text-align: center;
-  font-size: 64px;
-}
-.fa-laravel {
-  text-align: center;
-  font-size: 64px;
-}
-
-.fa-bootstrap {
-  text-align: center;
-  font-size: 64px;
-}
-
-.fa-jira {
-  text-align: center;
-  font-size: 64px;
-}
-
-.fa-git-alt {
-  text-align: center;
-  font-size: 64px;
-}
-
-.fa-github-square {
-  text-align: center;
-  font-size: 64px;
-}
-h5 {
+.skill {
   text-align: center;
   font-family: 'Roboto', sans-serif;
   font-size: 15px;
@@ -291,7 +253,6 @@ h5 {
   color: black;
   text-shadow: 1px 1px 1px #ccc;
   font-size: 30px;
-  
 }
 
 h6 {
@@ -302,6 +263,17 @@ h6 {
   padding: 10px;
 }
 
+h5 {
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.project-body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+}
 /*--------------------------------------------------------------- */
 /* Contact box /* 
 /*--------------------------------------------------------------- */
