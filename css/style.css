@@ -66,7 +66,7 @@ header {
 }
 */
 
-.titlebar {
+.title-bar {
   position: absolute;
   width: 100%;
   top: 50%;
@@ -107,39 +107,11 @@ header {
 .navbar li a:active {
   border-bottom: 2px solid #f8f8f8;
 }
-
-@media screen and (min-width: 1400px) {
-  .navbar{
-    font-weight: 1000;
-    font-size: 40px;
-  }
-}
-
-@media screen and (min-width: 1600px) {
-  .navbar{
-    font-weight: 1000;
-    font-size: 40px;
-  }
-}
-
-@media screen and (min-width: 1900px) {
-  .navbar{
-    font-weight: 1000;
-    font-size: 40px;
-  }
-}
-@media screen and (min-width: 1024px) {
-  .navbar{
-    font-weight: 1000;
-    font-size: 20px;
-  }
-}
 /*--------------------------------------------------------------- */
 /* About me /* 
 /*--------------------------------------------------------------- */
 
 .blog {
-  text-align: justify;
   padding: 10px;
   font-weight: 100;
   background-color: white;
@@ -153,8 +125,8 @@ header {
   display: block;
 }
 
-.blogtxt {
-  width: 50%;
+.blog-txt {
+  width: 80%;
   margin: auto;
 }
 
@@ -166,10 +138,6 @@ h4 {
   font-weight: 100;
 }
 
-.showHide  {
-  display: none;
-}
-
 a.anchor {
   display: block;
   position: relative;
@@ -177,35 +145,6 @@ a.anchor {
   visibility: hidden;
 }
 
-@media screen and (max-width: 800px) {
-  .blog,
-  .blogtxt {
-    text-align: center;
-    text-align: justify;
-    width: 100%;
-  }
-}
-
-@media screen and (min-width: 2560px) {
- 
-
-  .blogtxt {
-    padding: 30px 30px 30px 700px;
-    vertical-align: middle;
-    float: left;
-  }
-    .showHide  { 
-      display: inline;
-    }
-  
-    .big {
-      float: middle;
-      max-width:500px;
-      max-height:400px;
-      width: auto;
-      height: auto;
-    }
-  }
 /*--------------------------------------------------------------- */
 /* Skills /* 
 /*--------------------------------------------------------------- */
@@ -216,7 +155,7 @@ a.anchor {
   clear: both;
 }
 
-.skillIcons {
+.skill-icons {
   text-align: center;
   font-size: 64px;
 }
@@ -228,7 +167,7 @@ a.anchor {
   font-weight: 600;
 }
 
-.skillsection {
+.skill-section {
   background-color: #eae7e7;
   padding: 30px;
   font-family: 'Roboto', sans-serif;
@@ -346,7 +285,7 @@ label {
   margin: 0;
 }
 
-.contactedtext {
+.contacted-text {
   font-size: 35px;
   text-align: center;
   font-family: 'Roboto', sans-serif;
@@ -356,19 +295,19 @@ label {
   .contact,
   .container,
   input[type="submit"] {
-    
+
     margin: 0;
     padding: 10px;
     width: 100%;
   }
- 
+
   input[type="reset"] {
     display: none;
   }
 
   input[type="submit"] {
     width: auto;
-    
+
   }
 }
 /*--------------------------------------------------------------- */
