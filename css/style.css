@@ -170,7 +170,8 @@ a.anchor {
 
 .skill-section {
   background-color: #eae7e7;
-  padding: 30px;
+  padding-top: 100px;
+  padding-bottom: 150px;
   font-family: 'Roboto', sans-serif;
   font-size: 16px;
   text-align: justify;
@@ -289,6 +290,7 @@ label {
 .contacted-text {
   font-size: 35px;
   text-align: center;
+  padding-top: 30px;
   font-family: 'Roboto', sans-serif;
 }
 
