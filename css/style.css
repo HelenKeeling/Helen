@@ -79,20 +79,20 @@ body {
 /*!*--------------------------------------------------------------- *!*/
 /*!* HEADER !**/
 /*!*--------------------------------------------------------------- *!*/
-/*header {*/
-/*  height: 100vh;*/
-/*  !*display: -webkit-box;*!*/
-/*  !*display: -ms-flexbox;*!*/
-/*  display: flex;*/
-/*  -webkit-box-pack: center;*/
-/*  -ms-flex-pack: center;*/
-/*  justify-content: center;*/
-/*  -webkit-box-align: center;*/
-/*  -ms-flex-align: center;*/
-/*  align-items: center;*/
-/*  background: linear-gradient(to right, #15202b, #22303c);*/
-/*  width: 100%;*/
-/*}*/
+header {
+  height: 100vh;
+  /*display: -webkit-box;*/
+  /*display: -ms-flexbox;*/
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background: linear-gradient(to right, #15202b, #22303c);
+  width: 100%;
+}
 
 /*header .heroImageContainer {*/
 /*  -webkit-box-flex: 0;*/
@@ -284,6 +284,10 @@ body {
 /*!* Contact box !**/
 /*!*--------------------------------------------------------------- *!*/
 
+.contact2 {
+  background: linear-gradient(to right, #15202b, #22303c);
+}
+
 .contact {
   /*background-color: #eae7e7;*/
   padding: 10px;
@@ -310,7 +314,7 @@ textarea {
   resize: vertical;
 }
 
-input[type="submit"] {
+button[type="submit"] {
   background-color: #69bcf4;
   color: white;
   padding: 12px 20px;
@@ -319,10 +323,10 @@ input[type="submit"] {
   cursor: pointer;
 }
 
-input[type="submit"]:hover {
+button[type="submit"]:hover {
   background-color: #30cc8b;
 }
-input[type="reset"] {
+button[type="reset"] {
   background-color: #69bcf4;
   color: white;
   padding: 12px 20px;
@@ -331,7 +335,7 @@ input[type="reset"] {
   cursor: pointer;
 }
 
-input[type="reset"]:hover {
+button[type="reset"]:hover {
   background-color: #30cc8b;
 }
 
