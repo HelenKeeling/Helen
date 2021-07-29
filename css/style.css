@@ -7,9 +7,7 @@
 html,
 body {
   background-color: #15202b;
-  color:black;
   font-family: 'Roboto', sans-serif;
-  font-weight: 300;
   font-size: 1rem;
   text-rendering: optimizeLegibility;
   overflow-x: hidden;
@@ -24,28 +22,23 @@ body {
   width: 100%;
   background: linear-gradient(to right, #15202b, #22303c);
   color: #ffffff;
-  font-weight: 600;
 }
 
 .navbar li {
-  margin-left: 40px;
-  padding: 8px;
   float: right;
   color: #ffffff;
 }
 
 .navbar-light .navbar-nav .nav-link {
   color: #ffffff;
-  font-size: 70%;
-  font-weight: 550;
-  font-family: 'Roboto', sans-serif;
+  font-size: 1rem;
 }
 
-.navbar-light a:link,
+.navbar-nav a:link,
 .navbar-nav a:visited {
   padding: 8px 0;
   text-decoration: none;
-  font-size: 60%;
+  font-size: 1rem;
   border-bottom: 2px solid transparent;
   transition: border-bottom 0.2s;
   color: #ffffff;
@@ -60,35 +53,33 @@ body {
 /*!* Skills !**/
 /*!*--------------------------------------------------------------- *!*/
 
-/*.row:after {*/
-/*  content: "";*/
-/*  display: table;*/
-/*  clear: both;*/
-/*}*/
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
 
-/*.skill-icons {*/
-/*  text-align: center;*/
-/*  font-size: 64px;*/
-/*}*/
+.skill-icons {
+  text-align: center;
+  font-size: 3rem;
+}
 
-/*.skill {*/
-/*  text-align: center;*/
-/*  font-family: 'Roboto', sans-serif;*/
-/*  font-size: 15px;*/
-/*  font-weight: 600;*/
-/*  color: #ffffff;*/
-/*}*/
+.skill {
+  text-align: center;
+  font-size: 1rem;
+  color: #ffffff;
+}
 
-/*.skill-section {*/
-/*  !*background-color: #192734;*!*/
-/*  padding-top: 100px;*/
-/*  padding-bottom: 150px;*/
-/*  font-family: 'Roboto', sans-serif;*/
-/*  font-size: 16px;*/
-/*  text-align: justify;*/
-/*  color: #ffffff;*/
-/*}*/
+.skill-section {
+  padding-top: 100px;
+  padding-bottom: 150px;
+  font-size: 2rem;
+  color: #ffffff;
+}
 
+.project {
+  background: linear-gradient(to right, #15202b, #22303c);
+}
 /*!*--------------------------------------------------------------- *!*/
 /*!* PROJECTS !**/
 /*!*--------------------------------------------------------------- *!*/
