@@ -60,34 +60,29 @@ body {
 /*!* Skills !**/
 /*!*--------------------------------------------------------------- *!*/
 
-/*.row:after {*/
-/*  content: "";*/
-/*  display: table;*/
-/*  clear: both;*/
-/*}*/
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
 
-/*.skill-icons {*/
-/*  text-align: center;*/
-/*  font-size: 64px;*/
-/*}*/
+.skill-icons {
+  text-align: center;
+  font-size: 3rem;
+}
 
-/*.skill {*/
-/*  text-align: center;*/
-/*  font-family: 'Roboto', sans-serif;*/
-/*  font-size: 15px;*/
-/*  font-weight: 600;*/
-/*  color: #ffffff;*/
-/*}*/
+.skill {
+  text-align: center;
+  font-size: 1rem;
+  color: #ffffff;
+}
 
-/*.skill-section {*/
-/*  !*background-color: #192734;*!*/
-/*  padding-top: 100px;*/
-/*  padding-bottom: 150px;*/
-/*  font-family: 'Roboto', sans-serif;*/
-/*  font-size: 16px;*/
-/*  text-align: justify;*/
-/*  color: #ffffff;*/
-/*}*/
+.skill-section {
+  padding-top: 100px;
+  padding-bottom: 150px;
+  font-size: 2rem;
+  color: #ffffff;
+}
 
 /*!*--------------------------------------------------------------- *!*/
 /*!* PROJECTS !**/
