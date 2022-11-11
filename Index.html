@@ -18,7 +18,7 @@
 <!-------Nav Bar-------->
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <div class="container-fluid">
-                <a href="#home"><img src="img/avatartrans.png" class="rounded-circle" width="30" height="30" alt="Cinque Terre"></a>
+        <a href="#home"><img src="img/avatartrans.png" class="rounded-circle" width="30" height="30" alt="Cinque Terre"></a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
                 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -26,16 +26,24 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                 <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
-                    <a class="nav-link text-white" href="#skills">Skills</a>
+                    <strong>
+                        <a class="nav-link text-white" href="#skills">Skills</a>
+                    </strong>
                 </li>
                 <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
-                    <a class="nav-link text-white" href="#projects">Projects</a>
+                    <strong>
+                        <a class="nav-link text-white" href="#projects">Projects</a>
+                    </strong>
                 </li>
                 <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
-                    <a class="nav-link text-white" href="projects/hk_cv.pdf" target="_blank">Curriculum Vitae</a>
+                    <strong>
+                        <a class="nav-link text-white" href="projects/hk_cv.pdf" target="_blank">Curriculum Vitae</a>
+                    </strong>
                 </li>
                 <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
+                    <strong>
                     <a class="nav-link text-white" href="#contact-me">Contact Me</a>
+                    </strong>
                 </li>
             </ul>
         </div>
@@ -50,29 +58,28 @@
                      loading="lazy">
             </div>
             <div class="col-lg-6 col-sm-">
-                <h1 class="display-5 fw-bold lh-1 mb-3 text-white">Hey there, I'm Helen</h1>
+                <h1 class="display-5 fw-bold lh-1 mb-3 stand-out-font">Hey there, I'm Helen</h1>
                 <p class="text-white">
-                    I am a junior developer currently living and working in Nottingham, UK.<br><br>
-                    I graduated from the University of Derby where i obtained a BSc (Hons) in Information
+                    I am a developer currently living and working in Nottingham, UK.<br><br>
+                    I graduated from the University of Derby where I obtained a BSc (Hons) in Information
                     Technology.
                     In August 2019, I was successful in obtaining my first junior developer role working with PHP and
-                    Laravel.
+                    Laravel. Since October 2022, I have been working as a full stack developer at Gallaghers.
                     <br><br>
-                    Other than coding, I spend most of time playing Xbox or other games and reading. So feel free to
+                    Other than coding, I spend most of my time playing Xbox or other games and reading. So feel free to
                     reach out with any book and game recommendations.
                 </p>
-<!--                <div class="arrow bounce"></div>-->
             </div>
         </div>
     </div>
-
 </section>
 
 <!-------Projects-------->
 <section>
-    <div class="album py-5 pb-30">
+    <a class="anchor" id="projects"></a>
+    <div class="album py-5 pb-50">
         <div class="container">
-            <h1 class="text-center text-white">Projects</h1>
+            <h1 class="text-center text-white">Projects</h1><br>
             <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
                 <div class="col">
                     <div class="card shadow-sm">
@@ -131,15 +138,15 @@
                 </div>
             </div>
         </div>
+    </div>
 </section>
+<br><br><br>
 <!-- Skills -->
 <div class="container">
-
-        <a class="anchor" id="skills"></a>
-        <div class="skill-section">
-
-            <h1 class="text-center text-white">Skills</h1>
-            <div class="row">
+    <a class="anchor" id="skills"></a>
+    <div class="skill-section">
+        <h1 class="text-center text-white mb-50">Skills</h1>
+        <div class="row">
             <div class="col">
                 <div class="skill-icons">
                     <i class="fab fa-html5"></i>
@@ -156,7 +163,6 @@
                     CSS
                 </p>
             </div>
-
             <div class="col">
                 <div class="skill-icons">
                     <i class="fab fa-bootstrap"></i>
@@ -165,7 +171,6 @@
                     Bootstrap
                 </p>
             </div>
-
             <div class="col">
                 <div class="skill-icons">
                     <i class="fab fa-php"></i>
@@ -174,7 +179,6 @@
                     PHP
                 </p>
             </div>
-
             <div class="col">
                 <div class="skill-icons">
                     <i class="fab fa-laravel"></i>
@@ -184,7 +188,6 @@
                 </p>
             </div>
         </div>
-
         <div class="row">
             <div class="col">
                 <div class="skill-icons">
@@ -229,23 +232,20 @@
         </div>
     </div>
 </div>
-
-
-
 <!-- Contact Me -->
 <section>
     <div class="container">
         <div class="row text-center justify-content-center pt-5">
             <a class="anchor" id="contact-me"></a>
             <div class="contact col-12 col-md-7">
-                <h1><del> Get in touch</del> </h1>
-                <h1>Sorry i dont work at the moment but you can reach me
-                    <a href="mailto:helenlkeeling@gmail.com">here</a> </h1>
+                <h1>
+                    Get in touch
+                </h1>
             </div>
         </div>
         <div class="row justify-content-center pt-4">
             <div class="col-12 col-md-7">
-                <form action="contact.php" method="POST" onsubmit="return validateForm()">
+                <form action="" method="POST" onsubmit="return validateForm()">
                     <div class="row">
                         <div class="col">
                             <input type="text" id="name" name="name" class="form-control" placeholder="Name"
@@ -266,7 +266,7 @@
                         </div>
                     </div>
                     <div class="row mt-4 mb-4">
-                        <div class="col">
+                        <div class="col text-center">
                             <button type="submit" value="Submit" class="btn btn-primary">Submit</button>
                             <button type="reset" value="Reset" class="btn btn-primary">Reset</button>
                         </div>
@@ -311,7 +311,7 @@
             </a>
         </li>
     </ul>
-    <p>Helen Keeling - 2021</p>
+    <p class="stand-out-font">Helen Keeling - 2022</p>
 </footer>
 <!--JS-->
 <!--<script type="text/javascript" src="js/script.js"></script>-->
